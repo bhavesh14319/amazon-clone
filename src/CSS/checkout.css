@@ -1,0 +1,30 @@
+.checkout{
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    height: max-content;
+}
+
+.checkoutad{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.checkout  h3{
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.checkout__title{
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+@media screen and (max-width:700px) {
+    .checkout{
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
